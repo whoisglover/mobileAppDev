@@ -11,7 +11,10 @@ import UIKit
 class ViewController: UIViewController, FBLoginViewDelegate {
     
     @IBOutlet var fbLoginView : FBLoginView!
-    
+    var remote = Remote()
+    @IBAction func downloadTest(sender : UIButton) {
+        remote.connect(":3000")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,10 +28,15 @@ class ViewController: UIViewController, FBLoginViewDelegate {
     func loginViewShowingLoggedInUser(loginView: FBLoginView!) {
         println("User is logged in")
         println("This is where to prepare a segue")
+       
 
     }
     func loginViewFetchedUserInfo(loginView: FBLoginView!, user: FBGraphUser!) {
-        println("logged user: \(user.name)")
+        var email = user.objectForKey("email")
+        println("logged user's name: \(user.name)")
+        println("logged user's email: \(email)")
+        println("logged user's objectID: \(user.objectID)")
+        remote.connect(":3000")
     }
     
     func loginViewShowingLoggedOutUser(loginView: FBLoginView!) {

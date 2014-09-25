@@ -14,6 +14,7 @@
 		2613AA1319D278EE00B00C32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2613AA1119D278EE00B00C32 /* LaunchScreen.xib */; };
 		2613AA1F19D278EE00B00C32 /* facebookLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613AA1E19D278EE00B00C32 /* facebookLoginTests.swift */; };
 		2613AA2919D2792800B00C32 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2613AA2819D2792800B00C32 /* FacebookSDK.framework */; };
+		2613AA2C19D325DF00B00C32 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613AA2B19D325DF00B00C32 /* Remote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		2613AA1E19D278EE00B00C32 /* facebookLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookLoginTests.swift; sourceTree = "<group>"; };
 		2613AA2819D2792800B00C32 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		2613AA2A19D27AFA00B00C32 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		2613AA2B19D325DF00B00C32 /* Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2613AA0819D278EE00B00C32 /* AppDelegate.swift */,
 				2613AA2A19D27AFA00B00C32 /* Bridge-Header.h */,
 				2613AA0A19D278EE00B00C32 /* ViewController.swift */,
+				2613AA2B19D325DF00B00C32 /* Remote.swift */,
 				2613AA0C19D278EE00B00C32 /* Main.storyboard */,
 				2613AA0F19D278EE00B00C32 /* Images.xcassets */,
 				2613AA1119D278EE00B00C32 /* LaunchScreen.xib */,
@@ -220,6 +223,7 @@
 			files = (
 				2613AA0B19D278EE00B00C32 /* ViewController.swift in Sources */,
 				2613AA0919D278EE00B00C32 /* AppDelegate.swift in Sources */,
+				2613AA2C19D325DF00B00C32 /* Remote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
