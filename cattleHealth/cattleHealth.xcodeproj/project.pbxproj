@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D9E9B219F974BB00095F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9E9B119F974BB00095F7F /* AppDelegate.swift */; };
+		26D9E9B419F974BB00095F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9E9B319F974BB00095F7F /* ViewController.swift */; };
+		26D9E9B719F974BB00095F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D9E9B519F974BB00095F7F /* Main.storyboard */; };
+		26D9E9B919F974BB00095F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D9E9B819F974BB00095F7F /* Images.xcassets */; };
+		26D9E9BC19F974BB00095F7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D9E9BA19F974BB00095F7F /* LaunchScreen.xib */; };
+		26D9E9C819F974BB00095F7F /* cattleHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9E9C719F974BB00095F7F /* cattleHealthTests.swift */; };
+		26D9E9D319F974C800095F7F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D9E9D219F974C800095F7F /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D9E9C219F974BB00095F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D9E9A419F974BA00095F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D9E9AB19F974BB00095F7F;
+			remoteInfo = cattleHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D9E9AC19F974BB00095F7F /* cattleHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cattleHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D9E9B019F974BB00095F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D9E9B119F974BB00095F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26D9E9B319F974BB00095F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26D9E9B619F974BB00095F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D9E9B819F974BB00095F7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26D9E9BB19F974BB00095F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26D9E9C119F974BB00095F7F /* cattleHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cattleHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D9E9C619F974BB00095F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D9E9C719F974BB00095F7F /* cattleHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cattleHealthTests.swift; sourceTree = "<group>"; };
+		26D9E9D119F974C800095F7F /* cattleHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = cattleHealth.entitlements; sourceTree = "<group>"; };
+		26D9E9D219F974C800095F7F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D9E9A919F974BB00095F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9E9D319F974C800095F7F /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D9E9BE19F974BB00095F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D9E9A319F974BA00095F7F = {
+			isa = PBXGroup;
+			children = (
+				26D9E9D219F974C800095F7F /* HealthKit.framework */,
+				26D9E9AE19F974BB00095F7F /* cattleHealth */,
+				26D9E9C419F974BB00095F7F /* cattleHealthTests */,
+				26D9E9AD19F974BB00095F7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D9E9AD19F974BB00095F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D9E9AC19F974BB00095F7F /* cattleHealth.app */,
+				26D9E9C119F974BB00095F7F /* cattleHealthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D9E9AE19F974BB00095F7F /* cattleHealth */ = {
+			isa = PBXGroup;
+			children = (
+				26D9E9D119F974C800095F7F /* cattleHealth.entitlements */,
+				26D9E9B119F974BB00095F7F /* AppDelegate.swift */,
+				26D9E9B319F974BB00095F7F /* ViewController.swift */,
+				26D9E9B519F974BB00095F7F /* Main.storyboard */,
+				26D9E9B819F974BB00095F7F /* Images.xcassets */,
+				26D9E9BA19F974BB00095F7F /* LaunchScreen.xib */,
+				26D9E9AF19F974BB00095F7F /* Supporting Files */,
+			);
+			path = cattleHealth;
+			sourceTree = "<group>";
+		};
+		26D9E9AF19F974BB00095F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D9E9B019F974BB00095F7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D9E9C419F974BB00095F7F /* cattleHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D9E9C719F974BB00095F7F /* cattleHealthTests.swift */,
+				26D9E9C519F974BB00095F7F /* Supporting Files */,
+			);
+			path = cattleHealthTests;
+			sourceTree = "<group>";
+		};
+		26D9E9C519F974BB00095F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D9E9C619F974BB00095F7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D9E9AB19F974BB00095F7F /* cattleHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D9E9CB19F974BB00095F7F /* Build configuration list for PBXNativeTarget "cattleHealth" */;
+			buildPhases = (
+				26D9E9A819F974BB00095F7F /* Sources */,
+				26D9E9A919F974BB00095F7F /* Frameworks */,
+				26D9E9AA19F974BB00095F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cattleHealth;
+			productName = cattleHealth;
+			productReference = 26D9E9AC19F974BB00095F7F /* cattleHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D9E9C019F974BB00095F7F /* cattleHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D9E9CE19F974BB00095F7F /* Build configuration list for PBXNativeTarget "cattleHealthTests" */;
+			buildPhases = (
+				26D9E9BD19F974BB00095F7F /* Sources */,
+				26D9E9BE19F974BB00095F7F /* Frameworks */,
+				26D9E9BF19F974BB00095F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D9E9C319F974BB00095F7F /* PBXTargetDependency */,
+			);
+			name = cattleHealthTests;
+			productName = cattleHealthTests;
+			productReference = 26D9E9C119F974BB00095F7F /* cattleHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D9E9A419F974BA00095F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Glover LLC";
+				TargetAttributes = {
+					26D9E9AB19F974BB00095F7F = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Z7DNM36954;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					26D9E9C019F974BB00095F7F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 26D9E9AB19F974BB00095F7F;
+					};
+				};
+			};
+			buildConfigurationList = 26D9E9A719F974BA00095F7F /* Build configuration list for PBXProject "cattleHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D9E9A319F974BA00095F7F;
+			productRefGroup = 26D9E9AD19F974BB00095F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D9E9AB19F974BB00095F7F /* cattleHealth */,
+				26D9E9C019F974BB00095F7F /* cattleHealthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D9E9AA19F974BB00095F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9E9B719F974BB00095F7F /* Main.storyboard in Resources */,
+				26D9E9BC19F974BB00095F7F /* LaunchScreen.xib in Resources */,
+				26D9E9B919F974BB00095F7F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D9E9BF19F974BB00095F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D9E9A819F974BB00095F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9E9B419F974BB00095F7F /* ViewController.swift in Sources */,
+				26D9E9B219F974BB00095F7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D9E9BD19F974BB00095F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9E9C819F974BB00095F7F /* cattleHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D9E9C319F974BB00095F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D9E9AB19F974BB00095F7F /* cattleHealth */;
+			targetProxy = 26D9E9C219F974BB00095F7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D9E9B519F974BB00095F7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D9E9B619F974BB00095F7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D9E9BA19F974BB00095F7F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D9E9BB19F974BB00095F7F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D9E9C919F974BB00095F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26D9E9CA19F974BB00095F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D9E9CC19F974BB00095F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cattleHealth/cattleHealth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = cattleHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		26D9E9CD19F974BB00095F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cattleHealth/cattleHealth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = cattleHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		26D9E9CF19F974BB00095F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cattleHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cattleHealth.app/cattleHealth";
+			};
+			name = Debug;
+		};
+		26D9E9D019F974BB00095F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cattleHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cattleHealth.app/cattleHealth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D9E9A719F974BA00095F7F /* Build configuration list for PBXProject "cattleHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D9E9C919F974BB00095F7F /* Debug */,
+				26D9E9CA19F974BB00095F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D9E9CB19F974BB00095F7F /* Build configuration list for PBXNativeTarget "cattleHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D9E9CC19F974BB00095F7F /* Debug */,
+				26D9E9CD19F974BB00095F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D9E9CE19F974BB00095F7F /* Build configuration list for PBXNativeTarget "cattleHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D9E9CF19F974BB00095F7F /* Debug */,
+				26D9E9D019F974BB00095F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D9E9A419F974BA00095F7F /* Project object */;
+}
