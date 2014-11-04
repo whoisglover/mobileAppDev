@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D449EB1A017F4F007753D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D449EA1A017F4F007753D4 /* AppDelegate.swift */; };
+		26D449F21A017F4F007753D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D449F01A017F4F007753D4 /* Main.storyboard */; };
+		26D449F41A017F4F007753D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D449F31A017F4F007753D4 /* Images.xcassets */; };
+		26D449F71A017F4F007753D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D449F51A017F4F007753D4 /* LaunchScreen.xib */; };
+		26D44A031A017F4F007753D4 /* GloverTabbedHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D44A021A017F4F007753D4 /* GloverTabbedHWTests.swift */; };
+		26D44A0E1A017FB8007753D4 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D44A0D1A017FB8007753D4 /* ConverterViewController.swift */; };
+		26D44A101A017FD4007753D4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D44A0F1A017FD4007753D4 /* HistoryViewController.swift */; };
+		26D44A121A017FF0007753D4 /* TopRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D44A111A017FF0007753D4 /* TopRatedViewController.swift */; };
+		26D44A141A01800D007753D4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D44A131A01800D007753D4 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D449FD1A017F4F007753D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D449DD1A017F4F007753D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D449E41A017F4F007753D4;
+			remoteInfo = GloverTabbedHW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D449E51A017F4F007753D4 /* GloverTabbedHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloverTabbedHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D449E91A017F4F007753D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D449EA1A017F4F007753D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26D449F11A017F4F007753D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D449F31A017F4F007753D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26D449F61A017F4F007753D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26D449FC1A017F4F007753D4 /* GloverTabbedHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloverTabbedHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D44A011A017F4F007753D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D44A021A017F4F007753D4 /* GloverTabbedHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloverTabbedHWTests.swift; sourceTree = "<group>"; };
+		26D44A0D1A017FB8007753D4 /* ConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConverterViewController.swift; path = "View Controllers/ConverterViewController.swift"; sourceTree = "<group>"; };
+		26D44A0F1A017FD4007753D4 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = "View Controllers/HistoryViewController.swift"; sourceTree = "<group>"; };
+		26D44A111A017FF0007753D4 /* TopRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopRatedViewController.swift; path = "View Controllers/TopRatedViewController.swift"; sourceTree = "<group>"; };
+		26D44A131A01800D007753D4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "View Controllers/SearchViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D449E21A017F4F007753D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D449F91A017F4F007753D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D449DC1A017F4F007753D4 = {
+			isa = PBXGroup;
+			children = (
+				26D449E71A017F4F007753D4 /* GloverTabbedHW */,
+				26D449FF1A017F4F007753D4 /* GloverTabbedHWTests */,
+				26D449E61A017F4F007753D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D449E61A017F4F007753D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D449E51A017F4F007753D4 /* GloverTabbedHW.app */,
+				26D449FC1A017F4F007753D4 /* GloverTabbedHWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D449E71A017F4F007753D4 /* GloverTabbedHW */ = {
+			isa = PBXGroup;
+			children = (
+				26D44A0C1A017F67007753D4 /* View Controllers */,
+				26D449EA1A017F4F007753D4 /* AppDelegate.swift */,
+				26D449F01A017F4F007753D4 /* Main.storyboard */,
+				26D449F31A017F4F007753D4 /* Images.xcassets */,
+				26D449F51A017F4F007753D4 /* LaunchScreen.xib */,
+				26D449E81A017F4F007753D4 /* Supporting Files */,
+			);
+			path = GloverTabbedHW;
+			sourceTree = "<group>";
+		};
+		26D449E81A017F4F007753D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D449E91A017F4F007753D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D449FF1A017F4F007753D4 /* GloverTabbedHWTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D44A021A017F4F007753D4 /* GloverTabbedHWTests.swift */,
+				26D44A001A017F4F007753D4 /* Supporting Files */,
+			);
+			path = GloverTabbedHWTests;
+			sourceTree = "<group>";
+		};
+		26D44A001A017F4F007753D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D44A011A017F4F007753D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D44A0C1A017F67007753D4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D44A0D1A017FB8007753D4 /* ConverterViewController.swift */,
+				26D44A0F1A017FD4007753D4 /* HistoryViewController.swift */,
+				26D44A111A017FF0007753D4 /* TopRatedViewController.swift */,
+				26D44A131A01800D007753D4 /* SearchViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D449E41A017F4F007753D4 /* GloverTabbedHW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D44A061A017F4F007753D4 /* Build configuration list for PBXNativeTarget "GloverTabbedHW" */;
+			buildPhases = (
+				26D449E11A017F4F007753D4 /* Sources */,
+				26D449E21A017F4F007753D4 /* Frameworks */,
+				26D449E31A017F4F007753D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GloverTabbedHW;
+			productName = GloverTabbedHW;
+			productReference = 26D449E51A017F4F007753D4 /* GloverTabbedHW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D449FB1A017F4F007753D4 /* GloverTabbedHWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D44A091A017F4F007753D4 /* Build configuration list for PBXNativeTarget "GloverTabbedHWTests" */;
+			buildPhases = (
+				26D449F81A017F4F007753D4 /* Sources */,
+				26D449F91A017F4F007753D4 /* Frameworks */,
+				26D449FA1A017F4F007753D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D449FE1A017F4F007753D4 /* PBXTargetDependency */,
+			);
+			name = GloverTabbedHWTests;
+			productName = GloverTabbedHWTests;
+			productReference = 26D449FC1A017F4F007753D4 /* GloverTabbedHWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D449DD1A017F4F007753D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Glover LLC";
+				TargetAttributes = {
+					26D449E41A017F4F007753D4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					26D449FB1A017F4F007753D4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 26D449E41A017F4F007753D4;
+					};
+				};
+			};
+			buildConfigurationList = 26D449E01A017F4F007753D4 /* Build configuration list for PBXProject "GloverTabbedHW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D449DC1A017F4F007753D4;
+			productRefGroup = 26D449E61A017F4F007753D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D449E41A017F4F007753D4 /* GloverTabbedHW */,
+				26D449FB1A017F4F007753D4 /* GloverTabbedHWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D449E31A017F4F007753D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D449F21A017F4F007753D4 /* Main.storyboard in Resources */,
+				26D449F71A017F4F007753D4 /* LaunchScreen.xib in Resources */,
+				26D449F41A017F4F007753D4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D449FA1A017F4F007753D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D449E11A017F4F007753D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D44A141A01800D007753D4 /* SearchViewController.swift in Sources */,
+				26D44A101A017FD4007753D4 /* HistoryViewController.swift in Sources */,
+				26D44A121A017FF0007753D4 /* TopRatedViewController.swift in Sources */,
+				26D449EB1A017F4F007753D4 /* AppDelegate.swift in Sources */,
+				26D44A0E1A017FB8007753D4 /* ConverterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D449F81A017F4F007753D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D44A031A017F4F007753D4 /* GloverTabbedHWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D449FE1A017F4F007753D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D449E41A017F4F007753D4 /* GloverTabbedHW */;
+			targetProxy = 26D449FD1A017F4F007753D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D449F01A017F4F007753D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D449F11A017F4F007753D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D449F51A017F4F007753D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D449F61A017F4F007753D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D44A041A017F4F007753D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26D44A051A017F4F007753D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D44A071A017F4F007753D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GloverTabbedHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26D44A081A017F4F007753D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GloverTabbedHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26D44A0A1A017F4F007753D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GloverTabbedHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloverTabbedHW.app/GloverTabbedHW";
+			};
+			name = Debug;
+		};
+		26D44A0B1A017F4F007753D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GloverTabbedHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloverTabbedHW.app/GloverTabbedHW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D449E01A017F4F007753D4 /* Build configuration list for PBXProject "GloverTabbedHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D44A041A017F4F007753D4 /* Debug */,
+				26D44A051A017F4F007753D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D44A061A017F4F007753D4 /* Build configuration list for PBXNativeTarget "GloverTabbedHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D44A071A017F4F007753D4 /* Debug */,
+				26D44A081A017F4F007753D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D44A091A017F4F007753D4 /* Build configuration list for PBXNativeTarget "GloverTabbedHWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D44A0A1A017F4F007753D4 /* Debug */,
+				26D44A0B1A017F4F007753D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D449DD1A017F4F007753D4 /* Project object */;
+}
