@@ -9,6 +9,7 @@
 import UIKit
 
 class TopRatedViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
